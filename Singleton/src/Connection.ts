@@ -3,7 +3,7 @@ export class Connection
 
     private static conn: Connection = null;
 
-    private Connection() { }
+    private constructor() { }
 
     public static getInstance() : Connection
     {
